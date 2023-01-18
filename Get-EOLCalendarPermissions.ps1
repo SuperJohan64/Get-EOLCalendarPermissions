@@ -19,7 +19,7 @@ Catch {Exit}
 # Variables used for output file.
 $Timestamp = Get-Date -Format MMddyyyyHHmmss
 $OutputFileName = ($MyInvocation.MyCommand.Name).Replace(".ps1","") + "-$Timestamp"
-$OutputFilePath = "$PSScriptRoot\$Timestamp-$OutputFileName.txt"
+$OutputFilePath = "$PSScriptRoot\$OutputFileName.txt"
 
 $CalendarPermissions = @()
 
